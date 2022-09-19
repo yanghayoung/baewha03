@@ -7,7 +7,7 @@ birth char(20) NOT NULL,
 gen char(2),
 bike nvarchar(50),
 cc char(10),
-earphone char(2),
+earphone char(2)
 )
 
 
