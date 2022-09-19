@@ -1,0 +1,28 @@
+회원 테이블
+create table member(
+name nvarchar(30) NOT NULL,
+email nvarchar(50) NOT NULL,
+phoneN char(30) NOT NULL,
+birth char(20) NOT NULL,
+gen char(2),
+bike nvarchar(50),
+cc char(10),
+earphone char(2),
+)
+
+
+--아직 미완성 코드 --
+
+라이더 카페 테이블
+create table cafe(
+cName nvarchar(30) NOT NULL,
+palce nvarchar(100) NOT NULL,
+imurl nvarchar(500)
+)
+
+ 
+
+그룹 테이블 (그룹 테이블, 그룹 멤버 목록 테이블)
+create table group(
+ 
+)
